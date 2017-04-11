@@ -16,6 +16,10 @@ class Date
     string year;
   public:
     date();
+    // Preconditions: Nothing.
+    // Postconditions: The private variables are initialized to default values.
     bool isValid(string, string, string);
+    // Preconditions: A date must be passed into the function.
+    // Postconditions: The date is either a valid date or an invalid date.
 };
 #endif
